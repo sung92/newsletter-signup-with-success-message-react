@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .listitems {
+    @apply flex gap-[10px];
+  }
+}
